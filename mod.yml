@@ -1,0 +1,19 @@
+title: Valor Only
+original Author: Shananas
+description: Play as Valor Form the whole time. (Except STT, PL, and Atlantica for now)
+assets:
+#sora memt edit
+- name: 03system.bin
+  method: binarc  
+  source:
+  - name: memt
+    method: listpatch
+    type: List
+    source:
+    - name: memt.yml
+      type: memt
+#Form Starting Weapons
+- name: 00common.bdx
+  method: bdscript
+  source:
+  - name: 00common.bdscript
