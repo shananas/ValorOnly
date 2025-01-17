@@ -175,7 +175,7 @@ L193:
  pushImm 0
  syscall 0, 75 ; trap_saveram_set_weapon (3 in, 0 out)
  pushImm 1
- pushImm 480 ;give Kingdom Key D to Valor Form
+ pushImm 81 ;give Kingdom Key D to Valor Form
  syscall 0, 76 ; trap_saveram_set_form_weapon (2 in, 0 out)
  pushImm 2
  pushImm 0
@@ -184,10 +184,10 @@ L193:
  pushImm 0
  syscall 0, 76 ; trap_saveram_set_form_weapon (2 in, 0 out)
  pushImm 4
- pushImm 480 ;give Alpha Weapon to Master Form
+ pushImm 44 ;give Alpha Weapon to Master Form
  syscall 0, 76 ; trap_saveram_set_form_weapon (2 in, 0 out)
  pushImm 5
- pushImm 480 ;give Omega Weapon to Final Form
+ pushImm 45 ;give Omega Weapon to Final Form
  syscall 0, 76 ; trap_saveram_set_form_weapon (2 in, 0 out)
  pushImm 6
  pushImm 71
