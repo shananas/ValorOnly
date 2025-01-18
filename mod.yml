@@ -23,6 +23,11 @@ assets:
   method: bdscript
   source:
   - name: 00common.bdscript
+#Movement for AX2
+- name: obj/P_EX100_BTLF.mset
+  method: copy
+  source:
+  - name: P_EX100_BTLF.mset
 #Skateboard
 - name: obj/F_TT010.mset
   method: copy
@@ -63,7 +68,3 @@ assets:
     method: copy
     source:
     - name: plrp_0.list
-- name: obj/P_EX100_BTLF.mset
-  method: copy
-  source:
-  - name: P_EX100_BTLF.mset
