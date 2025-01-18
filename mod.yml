@@ -54,3 +54,12 @@ assets:
     source:
     - name: b_40.yml
     type: AreaDataSpawn
+#Delete everything below if you dont want growth from other forms
+- name: 00battle.bin
+  method: binarc  
+  source:
+  - name: plrp
+    type: list
+    method: copy
+    source:
+    - name: plrp_0.list
