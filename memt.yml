@@ -9,6 +9,16 @@ MemtEntries:
     Unk0C: -13056
     Unk0E: 24
     Members: [85, 92, 93, 2073, 85, 86, 2397, 87, 88, 89, 91, 264, 200, 1529, 2431, 1530, 1531, 264]
+  - Index: 3 #Specify a memt index to edit. Use a new index to create a new MemtEntry.
+    WorldId: 2
+    CheckStoryFlag: 2267
+    CheckStoryFlagNegation: 2256
+    Unk06: 0
+    Unk08: -13056
+    Unk0A: 60
+    Unk0C: -13056
+    Unk0E: 24
+    Members: [85, 0, 0, 0, 803]
   - Index: 4 #Specify a memt index to edit. Use a new index to create a new MemtEntry.
     WorldId: 2
     CheckStoryFlag: 2254

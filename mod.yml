@@ -1,6 +1,6 @@
 title: Valor Only
 original Author: Shananas
-description: Play as Valor Form the whole time. (Except STT, PL, and Atlantica for now)
+description: Play as Valor Form the whole time. (Except PL and Atlantica for now)
 assets:
 #sora memt edit
 - name: 03system.bin
@@ -12,8 +12,45 @@ assets:
     source:
     - name: memt.yml
       type: memt
+  - method: listpatch
+    name: cmd
+    source:
+    - name: CmdList.yml
+      type: cmd
+    type: list
 #Form Starting Weapons
 - name: 00common.bdx
   method: bdscript
   source:
   - name: 00common.bdscript
+#Skateboard
+- name: obj/F_TT010.mset
+  method: copy
+  source:
+  - name: obj/F_TT010_SORA.mset
+    type: internal
+- name: obj/F_TT010_ROXAS.mset
+  method: copy
+  source:
+  - name: obj/F_TT010_SORA.mset
+    type: internal
+#Twilight Thorn
+- method: copy
+  name: obj/B_EX100.mset
+  source:
+  - name: obj/B_EX100.mset
+#Dog
+- method: binarc
+  name: ard/us/tt12.ard
+  multi:
+  - name: ard/fr/tt12.ard
+  - name: ard/gr/tt12.ard
+  - name: ard/it/tt12.ard
+  - name: ard/sp/tt12.ard
+  - name: ard/tt12.ard
+  source:
+  - method: spawnpoint
+    name: b_40
+    source:
+    - name: b_40.yml
+    type: AreaDataSpawn
