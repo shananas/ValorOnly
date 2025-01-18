@@ -63,3 +63,7 @@ assets:
     method: copy
     source:
     - name: plrp_0.list
+- name: obj/P_EX100_BTLF.mset
+  method: copy
+  source:
+  - name: P_EX100_BTLF.mset
