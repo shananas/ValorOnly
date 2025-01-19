@@ -190,29 +190,3 @@
   DisableForm: 0
   Group: 0
   Reserve: 0
-- Id: 613 #Hit
-  Execute: 613
-  Argument: 613
-  SubMenu: -1
-  CmdIcon: Null
-  MessageId: 51363
-  Flags: Cursor, Land, Battle, Drive, Short, DisableLionSora, DisableSkateboard
-  Range: -1.0
-  Dir: 0.0
-  DirRange: -1.0
-  Cost: 0
-  CmdCamera: Null
-  Priority: 100
-  CmdReceiver: Player
-  Time: 0
-  Require: 0
-  Mark: 1
-  CmdAction: Idle
-  ReactionCount: 0
-  DistRange: 0
-  Score: 0
-  DisableForm: 0
-  Group: 0
-  Reserve: 0
-
-
