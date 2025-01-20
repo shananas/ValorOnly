@@ -2,6 +2,10 @@ title: Valor Only
 original Author: Shananas
 description: Play as Valor Form the whole time. (Except Pride Lands and Atlantica)
 assets:
+#shopFace fix Lua thanks to TopazTK
+- name: scripts/shopfaceReconstruct.lua
+  method: copy
+  source: shopfaceReconstruct.lua
 #sora memt edit
 - name: 03system.bin
   method: binarc  
