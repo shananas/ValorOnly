@@ -5,7 +5,8 @@ assets:
 #shopFace fix Lua thanks to TopazTK
 - name: scripts/shopfaceReconstruct.lua
   method: copy
-  source: shopfaceReconstruct.lua
+  source: 
+  - name: shopfaceReconstruct.lua
 #sora memt edit
 - name: 03system.bin
   method: binarc  
