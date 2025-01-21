@@ -46,10 +46,11 @@ assets:
   - name: obj/B_EX100.mset
 #Delete everything below if you dont want growth from other forms
 - name: 00battle.bin
-  method: binarc  
+  method: binarc
   source:
   - name: plrp
     type: list
-    method: copy
+    method: listpatch
     source:
-    - name: plrp_0.list
+    - name: PlrpList.yml
+      type: plrp
