@@ -15,19 +15,33 @@ assets:
     method: listpatch
     type: List
     source:
-    - name: memt.yml
+    - name: 03system.bin/memt.yml
       type: memt
   - method: listpatch
     name: cmd
     source:
-    - name: CmdList.yml
+    - name: 03system.bin/CmdList.yml
       type: cmd
     type: list
 #Movement for AX2
 - name: obj/P_EX100_BTLF.mset
   method: copy
   source:
-  - name: P_EX100_BTLF.mset
+  - name: obj/P_EX100_BTLF.mset
+#Luxord AI Change
+- name: obj/B_EX150.mdlx
+  method: binarc
+  source:
+  - name: b_ex
+    type: bdx
+    method: bdscript
+    source:
+    - name: obj/b_ex150.bdscript
+#Twilight Thorn
+- method: copy
+  name: obj/B_EX100.mset
+  source:
+  - name: obj/B_EX100.mset
 #Skateboard
 - name: obj/F_TT010.mset
   method: copy
@@ -39,11 +53,6 @@ assets:
   source:
   - name: obj/F_TT010_SORA.mset
     type: internal
-#Twilight Thorn
-- method: copy
-  name: obj/B_EX100.mset
-  source:
-  - name: obj/B_EX100.mset
 #Delete everything below if you dont want growth from other forms
 - name: 00battle.bin
   method: binarc
@@ -52,5 +61,5 @@ assets:
     type: list
     method: listpatch
     source:
-    - name: PlrpList.yml
+    - name: 00battle.bin/PlrpList.yml
       type: plrp
