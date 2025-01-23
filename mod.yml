@@ -2,6 +2,11 @@ title: Valor Only
 original Author: Shananas
 description: Play as Valor Form the whole time. (Except Pride Lands and Atlantica)
 assets:
+#Luxord Fix
+- name: scripts/ValorLuxordFix.lua
+  method: copy
+  source: 
+  - name: ValorLuxordFix.lua
 #shopFace fix Lua thanks to TopazTK
 - name: scripts/shopfaceReconstruct.lua
   method: copy
@@ -28,15 +33,6 @@ assets:
   method: copy
   source:
   - name: obj/P_EX100_BTLF.mset
-#Luxord AI Change
-- name: obj/B_EX150.mdlx
-  method: binarc
-  source:
-  - name: b_ex
-    type: bdx
-    method: bdscript
-    source:
-    - name: obj/b_ex150.bdscript
 #Twilight Thorn
 - method: copy
   name: obj/B_EX100.mset
