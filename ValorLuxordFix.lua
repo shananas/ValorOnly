@@ -65,8 +65,8 @@ if  World == 0x012 and Room == 0x0E then
 	if ReadByte (Save + 0x3524) ~= 1 and ReadByte (Save + 0x352B) == 0x02 then
 		WriteByte(Save + 0x3524,1)
 	end
-	if ReadByte (Save + 0x352B) > 0x02 then
-		WriteArray(Slot1 + 0x1B4,{0xC4,0x75,0xBB,0x45})
+	if ReadByte (Save + 0x3524) == 1 and ReadByte (Save + 0x352B) > 0x02 then
+		WriteByte(Save + 0x3524,0)
 	end
 end
 end
