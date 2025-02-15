@@ -1,3 +1,27 @@
+- Id: 5 #Revert
+  Execute: 5
+  Argument: 5
+  SubMenu: -1
+  CmdIcon: Form
+  MessageId: 33252
+  Flags: Cursor, Battle, Secure, Drive, DisableSkateboard
+  Range: -1.0
+  Dir: 0.0
+  DirRange: -1.0
+  Cost: 0
+  CmdCamera: Null
+  Priority: 100
+  CmdReceiver: Player
+  Time: 0
+  Require: 0
+  Mark: 1
+  CmdAction: Null
+  ReactionCount: 0
+  DistRange: 0
+  Score: 0
+  DisableForm: 2
+  Group: 0
+  Reserve: 0
 - Id: 297 #Key Counter
   Execute: 297
   Argument: 297
