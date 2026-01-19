@@ -58,5 +58,4 @@ assets:
     method: listpatch
     source:
     - name: 00battle.bin/PlrpList.yml
-
       type: plrp
